@@ -1,0 +1,16 @@
+{
+  "name": "hbfintech-portal-ant-pro-template",
+  "version": "1.0.0",
+  "description": "HBFintech Portal Ant Design Pro Template Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ant-design-pro",
+    "template",
+    "vue2"
+  ],
+  "author": "junjun",
+  "license": "MIT"
+}
