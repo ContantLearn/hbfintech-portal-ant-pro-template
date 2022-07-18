@@ -17,9 +17,10 @@ module.exports = {
             message: "using scss or less ?"
         },
         autoInstall: {
-            type: "confirm",
-            default: false,
-            message: "Automatic execution of 'npm install'？"
+            choices: [ "none", "npm install", "yarn install" ],
+            type: "list",
+            default: "none",
+            message: "Automatic execution of 'npm install' or 'yarn install'？"
         }
     }
 };
